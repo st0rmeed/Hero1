@@ -49,7 +49,7 @@ clock = pygame.time.Clock()
 
 
 def start_screen():
-    intro_text = ["", "",
+    intro_text = ["Hero1", "",
                   'project created', 'by @st0rmeed']
     fon = pygame.transform.scale(load_image('fon.jpg'), (WIDTH, HEIGHT))
     screen.blit(fon, (0, 0))
